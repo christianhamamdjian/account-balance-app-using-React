@@ -2,7 +2,7 @@
   "name": "account-balance-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://christianhamamdjian.github.io/account-balance-app-using-React",
+  "homepage": "https://christianhamamdjian.github.io/account-balance-app-using-react",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
