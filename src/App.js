@@ -55,7 +55,7 @@ class App extends Component {
     console.log(this.state);
     return (
       <div className="App">
-        <div className="title">Account Balance Tracker</div>
+        <div className="App-title">Account Balance Tracker</div>
         <AddEntryComponent passToList={this.passToList} />
         <div id="lists">
           <div id="income">
