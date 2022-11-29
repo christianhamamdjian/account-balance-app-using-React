@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/account-balance-app-using-react/static/css/main.c0ffe831.css",
-    "main.js": "/account-balance-app-using-react/static/js/main.c96382a1.js",
+    "main.js": "/account-balance-app-using-react/static/js/main.50a95cc8.js",
     "static/media/background.jpg": "/account-balance-app-using-react/static/media/background.b703b8bc464d237a4f93.jpg",
     "index.html": "/account-balance-app-using-react/index.html",
+    "static/media/close-circle-outline.svg": "/account-balance-app-using-react/static/media/close-circle-outline.d0ae6b4fb3931f9e40ae76d2c95edff7.svg",
+    "static/media/checkmark-circle-outline.svg": "/account-balance-app-using-react/static/media/checkmark-circle-outline.2218db4d819d66b2c313a86e5dad2657.svg",
     "main.c0ffe831.css.map": "/account-balance-app-using-react/static/css/main.c0ffe831.css.map",
-    "main.c96382a1.js.map": "/account-balance-app-using-react/static/js/main.c96382a1.js.map"
+    "main.50a95cc8.js.map": "/account-balance-app-using-react/static/js/main.50a95cc8.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ffe831.css",
-    "static/js/main.c96382a1.js"
+    "static/js/main.50a95cc8.js"
   ]
 }
