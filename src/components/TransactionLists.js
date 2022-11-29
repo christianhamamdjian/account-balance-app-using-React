@@ -1,4 +1,5 @@
 import React from 'react';
+import deleteMark from '../close-circle-outline.svg';
 import '../App.css';
 
 const TransactionLists = ({ incomes = [], expenses = [], deleteItem }) => {
@@ -20,7 +21,7 @@ const TransactionLists = ({ incomes = [], expenses = [], deleteItem }) => {
                       </div>
 
                       <div className="item__delete">
-                        <button className="item__delete--btn" onClick={() => deleteItem(element.type, element.id)}><i className="ion-ios-close-outline"></i></button>
+                        <button className="item__delete--btn" onClick={() => deleteItem(element.type, element.id)}><img style={{ width: '30px' }} src={deleteMark} alt="delete button" /></button>
                       </div>
 
                     </div>
@@ -45,7 +46,7 @@ const TransactionLists = ({ incomes = [], expenses = [], deleteItem }) => {
                       </div>
 
                       <div className="item__delete">
-                        <button className="item__delete--btn" onClick={() => deleteItem(element.type, element.id)}><i className="ion-ios-close-outline"></i></button>
+                        <button className="item__delete--btn" onClick={() => deleteItem(element.type, element.id)}>{deleteMark}</button>
                       </div>
 
                     </div>

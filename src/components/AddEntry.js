@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import addMark from '../checkmark-circle-outline.svg';
 import "../App.css";
 
 const AddEntry = (props) => {
@@ -74,8 +75,7 @@ const AddEntry = (props) => {
           onClick={e => newItem(e)}
           type="submit"
           className="add__btn"
-        >
-          <i className="ion-ios-checkmark-outline"></i>
+        ><img style={{ width: '30px' }} src={addMark} alt="add button" />
         </button>
       </form>
     </div>
