@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.174e0dbb.css",
-  "main.css.map": "static/css/main.174e0dbb.css.map",
-  "main.js": "static/js/main.3deec945.js",
-  "main.js.map": "static/js/main.3deec945.js.map",
-  "static/media/background.jpg": "static/media/background.49083acc.jpg"
+  "files": {
+    "main.css": "/account-balance-app-using-react/static/css/main.c0ffe831.css",
+    "main.js": "/account-balance-app-using-react/static/js/main.c96382a1.js",
+    "static/media/background.jpg": "/account-balance-app-using-react/static/media/background.b703b8bc464d237a4f93.jpg",
+    "index.html": "/account-balance-app-using-react/index.html",
+    "main.c0ffe831.css.map": "/account-balance-app-using-react/static/css/main.c0ffe831.css.map",
+    "main.c96382a1.js.map": "/account-balance-app-using-react/static/js/main.c96382a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0ffe831.css",
+    "static/js/main.c96382a1.js"
+  ]
 }
