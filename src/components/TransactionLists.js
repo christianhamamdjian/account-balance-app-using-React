@@ -46,7 +46,7 @@ const TransactionLists = ({ incomes = [], expenses = [], deleteItem }) => {
                       </div>
 
                       <div className="item__delete">
-                        <button className="item__delete--btn" onClick={() => deleteItem(element.type, element.id)}>{deleteMark}</button>
+                        <button className="item__delete--btn" onClick={() => deleteItem(element.type, element.id)}><img style={{ width: '30px' }} src={deleteMark} alt="delete button" /></button>
                       </div>
 
                     </div>
